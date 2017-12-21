@@ -15,5 +15,8 @@ libraryDependencies ++= Seq(
     "com.pharbers" % "mongodb-driver" % "0.1",
     "net.sourceforge.jexcelapi" % "jxl" % "2.6.12",
     "com.typesafe.play" %% "play-json" % "2.5.0-M2",
-    "org.mongodb" % "casbah_2.11" % "3.1.1"
+    "org.mongodb.scala" %% "mongo-scala-driver" % "1.2.1",
+    "org.mongodb.spark" %% "mongo-spark-connector" % "2.0.0",
+    "org.mongodb" % "casbah_2.11" % "3.1.1",
+    "org.scala-lang.modules" %% "scala-xml" % "1.0.6"
 )

@@ -22,4 +22,12 @@ object bmETMEntry extends App {
     bmMongoLogic.bindBrandLocation(cache_data)
     bmMongoLogic.bindBrandService(cache_data)
     bmMongoLogic.bindServiceLocation(cache_data)
+
+    val refactor_img_data = bmDataModule.refactorMongoImages(cache_data)
+    Thread.sleep(1000)
+
+    println("Start Replace LocImg")
+    bmMongoLogic.mutiReplaceLocImg(refactor_img_data)
+    println("Start Replace SerImg")
+    bmMongoLogic.mutiReplaceSerImg(refactor_img_data)
 }

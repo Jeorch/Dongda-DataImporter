@@ -1,6 +1,6 @@
 package mongo.location
 
-import com.mongodb.DBObject
+import com.mongodb.casbah.Imports.DBObject
 import com.pharbers.mongodbDriver.MongoDB.MongoDBImpl
 
 /**

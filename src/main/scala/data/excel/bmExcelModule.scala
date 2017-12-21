@@ -8,7 +8,7 @@ import jxl.{Workbook, WorkbookSettings}
 /**
   * Created by jeorch on 17-12-16.
   */
-trait bmExcelTrait {
+trait bmExcelModule {
 
     final val xls = "xls"
     final val xlsx = "xlsx"

@@ -16,7 +16,7 @@ trait bmServiceModule {
         import serve_traits.m2d
         data.foreach{ line =>
             val o: DBObject = line
-            db_driver.insertObject(o, "service", "_id")
+            db_driver.insertObject(o, "services", "_id")
         }
     }
 

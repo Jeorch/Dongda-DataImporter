@@ -1,0 +1,6 @@
+<pharbers-modules>
+    <dongda-resources>
+        <origin-path value="resources/images/" />
+        <images-path value="/home/jeorch/github/dongda/Dongda-Service/images/" />
+    </dongda-resources>
+</pharbers-modules>
