@@ -1,4 +1,4 @@
-name := "demo1216"
+name := "Dongda-DataImporter"
 
 version := "0.1"
 
